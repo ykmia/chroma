@@ -23,7 +23,6 @@ typer>=0.9.0
 typing_extensions>=4.5.0
 uvicorn[standard]>=0.18.3
 fastapi>=0.100.0
-opentelemetry-instrumentation-fastapi==0.36b0
 opentelemetry-api==1.13.0
 opentelemetry-exporter-otlp-proto-grpc==1.13.0
 opentelemetry-sdk==0.36b0
