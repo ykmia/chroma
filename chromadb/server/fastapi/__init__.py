@@ -2174,7 +2174,8 @@ class FastAPI(Server):
             ]
 
         return nnresult
-      @app.get("/")
+        
+@app.get("/")
 def root():
     return {"status": "ok"}
     # =========================================================================
