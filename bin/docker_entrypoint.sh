@@ -11,5 +11,5 @@ if [[ $args =~ ^uvicorn.* ]]; then
     exec $(eval echo "$args")
 else
     echo "Starting 'uvicorn chromadb.app:app' with args: $(eval echo "$args")"
-    exec uvicorn chromadb.app:app $(eval echo "$args")
+    exec uvicorn chromadb.app:app --host 0.0.0.0 --port 8000 $(eval echo "$args")
 fi
