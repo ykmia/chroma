@@ -8,9 +8,6 @@ kubernetes>=28.1.0
 mmh3>=4.0.1
 numpy>=1.22.5
 onnxruntime>=1.14.1
-opentelemetry-api>=1.24.0
-opentelemetry-exporter-otlp-proto-grpc>=1.24.0
-opentelemetry-sdk>=1.24.0
 orjson>=3.9.12
 overrides>=7.3.1
 posthog>=2.4.0,<6.0.0
@@ -26,4 +23,8 @@ typer>=0.9.0
 typing_extensions>=4.5.0
 uvicorn[standard]>=0.18.3
 fastapi>=0.100.0
+opentelemetry-instrumentation-fastapi==0.36b0
+opentelemetry-api==1.13.0
+opentelemetry-exporter-otlp-proto-grpc==1.13.0
+opentelemetry-sdk==0.36b0
 opentelemetry-instrumentation-fastapi==0.36b0
